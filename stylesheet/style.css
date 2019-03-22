@@ -1,19 +1,17 @@
 body{
-  padding-top: 80px;
-  padding-bottom: 40px;
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px 0px;
 
 }
 
 #container{
   margin: 0 auto;
-  max-width: 80%;
+  width: 100%;
+  text-align: center;
   border: 2px #8f97a3 solid;
   border-radius: 3px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
   padding-bottom: 150px;
-
 
 }
 

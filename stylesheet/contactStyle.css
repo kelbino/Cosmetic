@@ -1,181 +1,13 @@
-body{
-  padding-top: 80px;
-  padding-bottom: 40px;
 
-}
-
-#container{
-  margin: 0 auto;
-  max-width: 80%;
-  border: 2px #8f97a3 solid;
-  border-radius: 3px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  padding-bottom: 150px;
-
-
-}
-
-
-#container ul{
-  list-style: none;
-
-}
-
-#container li{
-  display: inline;
-
-}
-
-#logo{
-  padding-top: 20px;
-  max-width: 300px;
-  max-height: 150px;
-
-}
-
-#address li{
-    padding: 100px;
-    color: #8f97a3;
-
-}
-
-#menu li{
-  padding: 50px 20px;
-
-}
-
-#menu{
-  border-top: 2px #8f97a3 solid;
-  border-bottom: 2px #8f97a3 solid;
-  border-spacing: 5px;
-  margin: 0 auto;
-  max-width: 75%;
-  height: 20px;
-
-
-}
-
-#menu a:visited{
-  color: #8f97a3;
-  text-decoration: none;
-
-}
-
-#menu a:link{
-  color: #8f97a3;
-  text-decoration: none;
-
-}
-
-#menu a:hover{
-  color: #7f9bff;
-  text-decoration: underline;
-
-}
-
-#HomeHeader h1{
-  font-family: "Bookman Old Style";
-  font-size: 3.5em;
-  letter-spacing: 2.5px;
-
-}
-
-
-.eyeIMG{
-  width: 200px;
-  height: 75px;
-  border: 2px #000 double;
-
-}
-
-.lashinfo, .moreinfo{
-  float: left;
-  padding: 15px;
-  margin: 0 auto;
-  width: 30%;
-
-
-}
-
-.lashinfo p, .moreinfo p{
-  padding: 15px;
-  margin: 0 auto;
-  width: 200px;
-  text-align: center;
-  box-sizing: border-box;
-
-}
-
-
-input[type=button]{
-  background-color: #000;
-  border: 1px #000 solid;
-  padding: 10px;
-  color: #fff;
-  font-family: Arial;
-  font-weight: 60%;
-  width: 120px;
-  height: 35px;
-  cursor: pointer;
-
-
-}
-
-input[type=button]:hover{
-  color: #7f9bff;
-  clear: both;
-
-}
-
-footer{
-  clear: both;
-  border-bottom: 2px #8f97a3 solid;
-  max-width: 75%;
-  height: 10%;
-  padding: 80px 0px;
-  margin: 0 auto;
-
-
-}
-
-#socialmedia img{
-  width: 20px;
-  height: 20px;
-  padding: 10px;
-  display: inline;
-  justify-content: center;
-
-
-}
-
-#socialmedia img:hover{
-  opacity: 0.5;
-  cursor: pointer;
-
-
-}
-
-
-
-@media(max-width:600px){/*if the page is shrunken 600px or less the float
-  set up will clear out and the containers will fill up the width of the page*/
-  .lashinfo, .moreinfo{
-    width: 100%;
-    float: none;
-
-  }
-}
 
   /*----------------------------Contact Page---------------------------------*/
 
-#ContactUs{
+/*#ContactUs{
   background-image: url('../images/contactUs.png');
   background-position: center;
   background-repeat: no-repeat;
+  background-size: auto;
   padding: 100px;
-  margin: 0 auto;
   position: relative;
 
 }
@@ -188,107 +20,44 @@ footer{
   font-size: 3.5em;
   letter-spacing: 2.5px;
   position: absolute;
-  right: 33%;
+  right: 0;
+  left: 0;
+
+}*/
+
+#contactInfo{
+  border: 2px #000 solid;
+  padding: 10px auto;
+  height: 25%;
 
 }
 
-label, input{
-  display: block;
+#FName, #LName{
+  position: relative;
+  top: 20px;
 
 }
 
-#FName{
-  float: left;
-  margin: 0px auto;
-  padding: 10px;
-
-}
-
-#LName{
-  float: left;
-  margin: 0px auto;
-  padding: 10px;
-
-}
-
-br{
-  clear: float;
-
-}
-
-
-#userInput{
-  margin: 10% 25%;
-  padding: 10px;
-  width: 60%;
-  /*border: 2px #000 solid;*/
-  position: absolute;
-  text-align: left;
-
-
-}
-/*
-#name{
+#userFirst, #userLast{
   display: inline-block;
-  justify-content: center;
+  padding: 10px;
+  border: 2px #000 ridge;
+  text-align: left;
+  margin: 10px auto;
 
 }
 
-#Email, #Phone, #Message{
-  clear:both;
-  display: block;
-  margin: 0 25%;
+#phone, #emailInput{
+  border: 2px blue solid;
+  text-align: left;
+  margin: 10 auto;
+  padding: 10px 0px;
 
-}
-
-
-.title{
-  margin: 0 25%;
-
-}
-*/
-
-#additionalInfo{
-  text-align:left;
-  margin: 20% 25%;
-  padding: 20px;
-  /*border: 2px #000 solid;*/
-  width: 60%;
-
-}
-
-#Email, #Phone, #Message{
-  padding-right: 30px;
-
-}
-
-
-
-input[type=text]{
-  padding: 15px 70px;
-  color: #8f97a3;
-  border-radius: 2px;
-  border: 1px #8f97a3 solid;
-  box-sizing: border-box;
 
 
 }
 
-input[type=text]:hover{
-  opacity: 0.5;
-  cursor: text;
-
-}
-
-input[type=text]:focus{
-  border: 2px #7f9bff solid;
-  background-color: #a8c9ff;
-  color: #000;
-
-}
-
-input[type=textarea]{
-  height: 50px;
+#emailLabel, #phoneLabel{
 
 
 }

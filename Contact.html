@@ -2,13 +2,13 @@
 <html>
 <head>
 <title>Template</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
   <link rel="stylesheet" type="text/css" href="stylesheet/contactStyle.css">
 
 </head>
 <body>
 
   <div id="container">
-    <img src="images/lashes2.png" id="logo">
     <nav>
       <ul id="address">
         <li>12-34th Street</li>
@@ -31,38 +31,44 @@
       </div>
 
       <form>
-        <section>
-        <div id="userInput">
-          <div id="FName">
-          <label>First Name</label>
-              <input type="text" name="Name" id="FirstName" placeholder="Enter First Name...">
+        <div id="contactInfo">
+
+          <div id="userFirst">
+            <div id="FName">
+              <label>First Name</label>
+            </div><br>
+            <input type="text" name="firstname" placeholder="Enter FirstName">
           </div>
 
-          <div id="LName">
-          <label>Last name</label>
-              <input type="text" name="Name" id="LastName" placeholder="Enter Last Name...">
+          <div id="userLast">
+            <div id="LName">
+              <label>Last Name</label>
+            </div><br>
+            <input type="text" name="lastname" placeholder="Enter Lastname">
+            </div><!--End userName div-->
+
+          <div id="emailInput">
+            <div id="emailLabel">
+              <label>Email</label>
+            </div>
+            <input type="email" name="email" placeholder="Enter Email">
+          </div>
+
+          <div id="phone">
+            <div id="phoneLabel">
+              <label>Phone Number</label>
+            </div>
+            <input type="number" name="phone" placeholder="Enter Phone Number">
+          </div>
+
+          <div id="AreaField">
+            <textarea name="textarea" placeholder="Enter Message"></textarea>
           </div>
         </div>
 
-          <br>
-        </section>
-        <div id="additionalInfo">
-          <label>Email</label>
-          <input type="text" name="Email" id="Email" placeholder="Enter Email..">
-
-          <label>Phone Number</label>
-          <input type="text" name="Number" id="Phone" placeholder="Enter Phone Number">
-
-          <label>Message</label>
-          <input type="textarea" name="message" id="Message" placeholder="Enter Message">
-
-          <input type="submit" name="Submit" value="submit" id="button">
-        </div>
-
-
+        </div><!--End ContactInfo Div-->
 
       </form>
-
 
     </main>
 
