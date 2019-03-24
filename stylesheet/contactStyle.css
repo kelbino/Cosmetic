@@ -17,11 +17,13 @@
 #ContactUs h1{
   text-align: center;
   margin: 0px auto;
-  font-family: "Bookman Old Style";
+  font-family: "Arial";
   font-size: 3.5em;
-  letter-spacing: 2.5px;
+  font-weight: lighter;
+  letter-spacing: 3.0px;
+  text-transform: uppercase;
   position: relative;
-  top: 140px;
+  top: 160px;
 
 }
 

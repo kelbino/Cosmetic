@@ -40,7 +40,7 @@ body{
 }
 
 #menu li{
-  padding: 50px 20px;
+  padding: 50px 3px;
 
 }
 
@@ -73,10 +73,17 @@ body{
 
 }
 
+span{
+  margin: 0px 5px;
+
+}
+
 #HomeHeader h1{
-  font-family: "Bookman Old Style";
+  font-family: "Arial";
   font-size: 3.5em;
-  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  letter-spacing: 3.0px;
+  font-weight: lighter;
 
 }
 
@@ -84,7 +91,6 @@ body{
 .eyeIMG{
   width: 200px;
   height: 75px;
-  border: 2px #000 double;
 
 }
 
@@ -98,11 +104,14 @@ body{
 }
 
 .lashinfo p, .moreinfo p{
-  padding: 15px;
+  padding: 14px;
   margin: 0 auto;
   width: 200px;
+  color: #5C5C5C;
   text-align: center;
   box-sizing: border-box;
+  font-family: 'Merriweather';
+  font-size: 14px;
 
 }
 
