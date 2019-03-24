@@ -2,33 +2,32 @@
 
   /*----------------------------Contact Page---------------------------------*/
 
-/*#ContactUs{
+#ContactUs{
   background-image: url('../images/contactUs.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
-  padding: 100px;
+  height: 25px;
+  padding: 80px 0px 120px 0px;
+  margin: 5px auto 60px auto;
   position: relative;
 
 }
 
 #ContactUs h1{
   text-align: center;
-  margin-top: 100px;
-  margin: 60 auto;
+  margin: 0px auto;
   font-family: "Bookman Old Style";
   font-size: 3.5em;
   letter-spacing: 2.5px;
-  position: absolute;
-  right: 0;
-  left: 0;
+  position: relative;
+  top: 140px;
 
-}*/
+}
 
 #contactInfo{
-  border: 2px #000 solid;
   padding: 10px auto;
-  height: 25%;
+  min-height: 25%;
 
 }
 
@@ -40,24 +39,82 @@
 
 #userFirst, #userLast{
   display: inline-block;
-  padding: 10px;
-  border: 2px #000 ridge;
+  padding: 10px 5px;
   text-align: left;
+  margin: 10px auto 5px auto;
+  width: 240px;
+
+}
+
+#phoneInput, #emailInput{
+  text-align: left;
+  margin: 5px auto;
+  padding: 10px 5px;
+  width: 500px;
+
+}
+
+input[type=text],
+input[type=email],
+input[type=number]{
+width: 100%;
+padding: 10px 0px;
+font-size: 14px;
+border: 1px #c8c9ce solid;
+border-radius: 2px;
+
+}
+
+#AreaField{
+  padding: 10px 5px;
   margin: 10px auto;
-
-}
-
-#phone, #emailInput{
-  border: 2px blue solid;
+  width: 500px;
+  min-height: 300px;
   text-align: left;
-  margin: 10 auto;
-  padding: 10px 0px;
+  position: relative;
+  left: 1px;
 
+}
+
+input[type=submit]{
+  border: 2px #000 double;
+  padding: 10px;
+  font-family: "Bookman Old Style";
+  font-size: 12px;
+  background-color: #fff;
+
+}
+
+
+textarea{
+  width: 100%;
+  min-height: 300px;
+  font-size: 14px;
+  border: 1px #c8c9ce solid;
+  border-radius: 2px;
+
+}
+
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=number]:hover,
+textarea:hover{
+  cursor: text;
+  opacity: 0.5;
 
 
 }
 
-#emailLabel, #phoneLabel{
+input[type=submit]:hover{
+  cursor: grab;
+  background-color: #f77eb6;
 
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+textarea:focus{
+  background-color: #839ffc;
 
 }
